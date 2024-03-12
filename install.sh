@@ -20,8 +20,12 @@ git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZS
 mkdir zshrc-alto
 
 mv .zshrc zshrc-alto
-
+cd zsh
 mv .zshrc1 .zshrc
+mv .zshrc $HOME
 clear 
 echo ""
+echo ""
+
 echo "AGORA SAIA DO TERMUX E ENTRE NOVAMENTE"
+exit
